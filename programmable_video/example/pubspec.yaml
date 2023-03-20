@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cloud_functions: ^1.0.5
+  cloud_functions: ^4.0.11
   rxdart: ^0.27.1
   provider: ^5.0.0
   native_device_orientation: ^1.0.0
@@ -19,19 +19,20 @@ dependencies:
   device_info: ^2.0.2
   wakelock: ^0.5.6
   after_layout: ^1.1.0
-  firebase_core: ^1.1.0
+  firebase_core: ^2.7.0
   uuid: ^3.0.4
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   collection: ^1.15.0-nullsafety.4
+  twilio_programmable_video: ^1.0.1
 
 dev_dependencies:
   flutter_driver:
     sdk: flutter
   test: ^1.16.5
-  twilio_programmable_video:
-    path: ../
+#  twilio_programmable_video:
+#    path: ../
 
 
 # For information on the generic Dart part of this file, see the
